@@ -6,21 +6,21 @@ class Inrun < Formula
   on_macos do
     on_arm do
       url    "https://github.com/Intentd/inrun/releases/download/v0.1.0/inrun_darwin_arm64.tar.gz"
-      sha256 "e4e65d2e52f19299927e3d53f85e834c5266b15593899f6608d58ab8b395ca58"
+      sha256 "a9fc865cc5d6251d1891f6426e68b3eb4e65e475a44a5f79a50107dd7f77f346"
     end
     on_intel do
       url    "https://github.com/Intentd/inrun/releases/download/v0.1.0/inrun_darwin_amd64.tar.gz"
-      sha256 "359adea430d53cdd4b227d549ea07de7c164371dc7018131dff582555262b447"
+      sha256 "0ad443b8853408be488d5571fb0219abb32d1980ee979658c5294eb6be06e98f"
     end
   end
   on_linux do
     on_arm do
       url    "https://github.com/Intentd/inrun/releases/download/v0.1.0/inrun_linux_arm64.tar.gz"
-      sha256 "9d4c63a593b4ab695961ac11c9ba12da13337023189ee59531c45dbd3de3e66f"
+      sha256 "435002fc79750680152065c2dc9e049dd7b178c0e359243619e79b7b5daaf3b1"
     end
     on_intel do
       url    "https://github.com/Intentd/inrun/releases/download/v0.1.0/inrun_linux_amd64.tar.gz"
-      sha256 "158783e6072a7800cb5f31de3601dfc613d54119f9aa490c5d07b5d44ea9c638"
+      sha256 "2caffb19a79e06db031e8dc3f979808e5e031539d2bbde54d5eee97ad75cfa9e"
     end
   end
   def install

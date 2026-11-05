@@ -6,21 +6,21 @@ class InrunConsole < Formula
   on_macos do
     on_arm do
       url    "https://github.com/Intentd/inrun/releases/download/v0.1.0/inrun-console_darwin_arm64.tar.gz"
-      sha256 "9485996915c64c94e84a1242110e02733f94d6a96bf6ec8255dd22f8cf45f882"
+      sha256 "386d319d3c358b4efafc85007191e83b80e54bd241fa4a46494b75c3a2e70d03"
     end
     on_intel do
       url    "https://github.com/Intentd/inrun/releases/download/v0.1.0/inrun-console_darwin_amd64.tar.gz"
-      sha256 "1c973d4202d53d4439ed69eb96736731bd47fd6ff12a346d0f7a44fe65eaf295"
+      sha256 "3caba4a599d21cf182b9e4bbc14fe13e362485495d2cf8b75d816f68bcdc0514"
     end
   end
   on_linux do
     on_arm do
       url    "https://github.com/Intentd/inrun/releases/download/v0.1.0/inrun-console_linux_arm64.tar.gz"
-      sha256 "b18d6c43914f27840d040b575aaeb646c02c811e61108eb2b055c77e45492dd4"
+      sha256 "56db45c3fc11f4b71814a0a6d1638303750ea2cf40f04f591e795922b6057d38"
     end
     on_intel do
       url    "https://github.com/Intentd/inrun/releases/download/v0.1.0/inrun-console_linux_amd64.tar.gz"
-      sha256 "47b4caa6759ffa6b914ef42e20320384f6344a74e89c905d063c91aee01e2a87"
+      sha256 "b52c8680d8ed06cd87d464f28629646e9e870084d42a6837ac53fa98d1abae7c"
     end
   end
   def install
